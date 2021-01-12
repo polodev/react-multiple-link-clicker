@@ -1,16 +1,6 @@
+import links1 from './links1';
 var links = [
-    {
-        title: 'Github',
-        url: 'https://github.com',
-        description: 'html github description',
-        image: '',
-    },
-    {
-        title: 'Dev.To',
-        url: 'https://dev.to/',
-        description: 'Dev.to github description',
-        image: '',
-    },
+    ...links1,
 ];
 
 export default links;
