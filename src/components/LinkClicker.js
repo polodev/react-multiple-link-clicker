@@ -27,7 +27,7 @@ class LinkClicker extends Component {
      }
 
     render() { 
-        return <button onClick={this.openLink}>
+        return <button className="btn btn-secondary" onClick={this.openLink}>
             Open All Links
         </button>
     }
